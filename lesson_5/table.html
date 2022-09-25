@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 5 table</title>
+</head>
+<body>
+  <table border="1">
+    <caption>Заголовок таблицы</caption>
+    <thead>
+      <tr>
+       <th>Студент</th>
+       <th>Дата рождения</th>
+        <th>Дата присоединения к курсу</th>
+      </tr>
+    </thead>
+    <tbody>
+      <colgroup>
+        <col bgcolor="lime"></col>
+        <col span="2" style="background-color:aqua"></col>
+      </colgroup>
+      <tr>
+        <td>Petr Cech</td>
+        <td>20/05/1982</td>
+        <td>15/03/2022</td>
+      </tr>
+      <tr>
+        <td>Petr Cech</td>
+        <td>20/05/1982</td>
+        <td>15/03/2022</td>
+      </tr>
+      <tr>
+      <td>Petr Cech</td>
+      <td>20/05/1982</td>
+        <td>15/03/2022</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td colspan="3" align="center" bgcolor="#ffwfeef">Подвал</td>
+    </tfoot>
+  </table>
+</body>
+</html>

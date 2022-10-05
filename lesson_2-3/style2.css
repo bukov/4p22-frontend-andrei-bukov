@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background: linear-gradient(45deg, black, transparent);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  /* object-fit: contain; Вставляет картинку по размеру*/
+  /* object-fit: cover;  Вставляет картинку по рамке*/
+  /* object-fit: fill; Подгоняет под рамку*/ 
+  object-fit: cover;
+}
+
+.box {
+  font-family: 'Bungee Spice', cursive;
+  font-size: 20px;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  padding: 20px;
+  border: 10px solid red;
+  margin: 10px;
+  overflow: scroll;
+}

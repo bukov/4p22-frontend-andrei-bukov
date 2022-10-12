@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* height: 100vh; */
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.box-percentage {
+  width: 50%;
+  height: 50%;
+  background: lime;
+} */
+
+/* .container {
+  font-size: 40px;
+}
+
+.box1 {
+  font-size: 1.5em;
+  background: red;
+}
+
+.text {
+  font-size: 1em;
+  line-height: 2em;
+} */
+
+/* .container {
+
+}
+
+.box1 {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+
+
+.box-2 { */
+  /* макет 1140зч размер шрифта 24px */
+  /* font-size: calc(24 / 1440 * 100vw);
+  width: 120vw;
+  height: 200px;
+  background: red;
+}
+
+.box-3 {
+  width: 50%;
+  height: 200px;
+  background: lime;
+} */
+
+/* .box {
+  width: 50vmin;
+  height: 200px;
+  background: red;
+} */
+
+.box {
+  width: 50%;
+  height: 200px;
+  max-height: 50vh;
+  background: red;
+}

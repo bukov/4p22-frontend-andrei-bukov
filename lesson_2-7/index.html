@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 2-7</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <form class="form">
+    <label for="smth">
+      <span>Название</span>
+      <input id="smth">
+    </label>
+    
+    <label for="nameOfInput">Имя</label>
+    <input id="nameOfInput" name="FIO" type="text" placeholder="Введите ваше ФИО">
+    
+
+    <!-- Чтобы скрыть тег <label></label>
+    <input aria-label="ФИО" name="FIO" type="text" placeholder="Введите ваше ФИО"> -->
+    
+    <input class="form__input" id="email" name="email" type="email">
+    <input id="password" name="password" type="password">
+    <input id="number" name="number" type="number">
+    <input id="tel" name="tel" type="telefon">
+
+    <!-- Не используются -->
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+
+    <!-- используются -->
+    <div class="form__file">
+      <label>Загрузить файл</label>
+      <input class="form-file__input" type="file">
+    </div>
+
+    <!-- <input type="submit" value="Отправить submit">
+    <input type="button" value="Отправить button"> -->
+    <div class="form__checkbox">
+      <input id="checkbox-1" type="checkbox" name="colors" value="RED">
+      <div></div>
+      <label for="checkbox-1">Красный</label>
+    </div>
+    <div class="form__checkbox">
+      <input id="checkbox-2" type="checkbox" name="colors" value="YELLOW">
+      <div></div>
+      <label for="checkbox-2">Желтый</label>
+    </div>
+    <div class="form__checkbox">
+      <input id="checkbox-3" type="checkbox" name="colors" value="WHITE">
+      <div></div>
+      <label for="checkbox-3">Белый</label>
+    </div>
+    <div class="form__checkbox">
+      <input id="checkbox-4" type="checkbox" name="colors" value="BLUE">
+      <div></div>
+      <label for="checkbox-4">Синий</label>
+    </div>
+
+    <div>
+      <div class="form__radio">
+        <input id="radio-1" type="radio" name="gender" value="man">
+        <div></div>
+        <label for="radio-1">Мужчина</label>
+      </div>
+      <div class="form__radio">
+        <input id="radio-2" type="radio" name="gender" value="man">
+        <div></div>
+        <label for="radio-2">Женщина</label>
+      </div>
+    </div>
+
+    <button>Отправить</button>
+  </form>
+
+  <form>
+    <label for="language">Язык</label>
+    <select name="language" id="language">
+      <option value="RU">Русский</option>
+      <option value="EN">Английский</option>
+      <option value="FR">Французкий</option>
+    </select>
+
+    <label for="textarea">О себе</label>
+    <textarea style="resize: none;" id="textarea" name="textarea"></textarea>
+    <button>ОК</button>
+  </form>
+</body>
+</html>

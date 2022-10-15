@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--c-accent);
+}
+
+a:hover {
+  color: var(--c-main)
+}
+
+:root {
+  --c-black: #000;
+  --c-main: #590BFF;
+  --c-accent: #FF710B;
+  --c-gray: #C4C4C4;
+  --c-white: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header__inner-container { 
+  background: var(--c-main);
+  max-width: 100%;
+}
+
+.header__title { 
+  color: var(--c-white);
+  font-size: 3.375rem;
+  padding: 13px 29px;
+}
+
+.content { 
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.content__sidebar { 
+  border-right: 2px solid var(--c-gray);
+  max-height: 450px;
+  min-width: 300px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin-left: 25px;
+}
+
+.content__title { 
+  font-size: 1.75rem;
+  padding-bottom: 23px;
+}
+
+.content__menu { 
+ border-bottom: 1px solid var(--c-black);
+}
+
+.menu  li { 
+  padding-bottom: 10px;
+}
+
+.menu__list { 
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.content__body { 
+  margin: 0 20px;
+  width: 100%;
+}
+
+.adress-book__card { 
+  background: var(--c-main);
+  color: var(--c-white);
+  position: sticky;
+  top: 0;
+}
+
+.adress-book__letter { 
+  font-size: 1.75rem;
+  padding: 4px 13px;
+}
+
+.adress-book__list { 
+  list-style-type: none;
+  margin: 13px 13px;
+}
+
+.adress-book__item { 
+  font-size: 1.75rem;
+}

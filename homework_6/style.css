@@ -26,15 +26,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  color: var(--c-white);
+}
+
 .header__inner-container { 
-  background: var(--c-main);
-  max-width: 100%;
+  background-color: var(--c-main);
+  width: 100%;
 }
 
 .header__title { 
-  color: var(--c-white);
-  font-size: 3.375rem;
   padding: 13px 29px;
+  font-size: 3.375rem;
 }
 
 .content { 
@@ -46,7 +49,7 @@ body {
 .content__sidebar { 
   border-right: 2px solid var(--c-gray);
   max-height: 450px;
-  min-width: 300px;
+  min-width: 15rem;
   position: sticky;
   top: 0;
   left: 0;

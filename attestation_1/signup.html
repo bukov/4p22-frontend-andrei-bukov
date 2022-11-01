@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attestation</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <header class="header">
+      <div class="header__container">
+        <img class="header__logo" src="./images/logo.svg" alt="innopolis university"  height="100%" weight="100%" loading="lazy">
+        <h1 class="header__title">PCS Frontend</h1>
+        <div class="header__links">
+          <a href="./signup.html" class="header__link">Регистрация</a>
+          <a href="./index.html" class="header__link">Вход</a>
+        </div>
+      </div>
+  </header>
+  <main class="content">
+    <form class="form" action="#">
+      <header class="form__header">
+        <h2 class="form__title">Регистрация</h2>
+      </header>
+      <div class="form__body">
+        <div class="form__item">
+          <div class="input">
+            <label class="input__label"  for="email">Email</label>
+            <input class="input__control" type="email" id="email" name="email" placeholder="Введите email">
+          </div>
+        </div>
+        <div class="form__item">
+          <div class="input">
+            <label class="input__label" for="password">Пароль</label>
+            <input class="input__control" type="password" id="password" name="password" placeholder="Введите пароль">
+          </div>
+        </div>
+        <div class="form__item">
+          <div class="input">
+            <label class="input__label"  for="password-repeat">Подтверждение пароля</label>
+            <input class="input__control" type="password" id="password-repeat" name="password" placeholder="Подтвердите пароль">
+          </div>
+        </div>
+        <div class="form__item">
+          <div class="input__radio">
+            <h3 class="input__radio-title">Пол</h3>
+            <div class="input__radio-container">
+              <label class="input__radio-label">
+                <input class="input__radio-input" type="radio" name="gender">
+                <span class="input__radio-custom"></span>
+                Мужчина
+              </label>
+            </div>
+            <div class="input__radio-container">
+              <label class="input__radio-label">
+                <input class="input__radio-input" type="radio" name="gender">
+                <span class="input__radio-custom"></span>
+                Женщина
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form__item">
+          <div class="input__about-me">
+            <label class="input__about-me-title" for="about-me">О себе</label>
+            <textarea class="input__about-me-text" id="about-me" name="about-me" placeholder="Расскажите о себе..."></textarea>
+          </div>
+        </div>
+        <div class="form__item">
+          <div class="input__checkbox-container">
+            <input class="input__checkbox" type="checkbox" id="agree" name="agree">
+            <div class="input__checkbox-custom"></div>
+            <label class="input__checkbox-control" for="agree">Я согласен получать обновления на почту</label>
+          </div>
+        </div>
+      </div>
+      <footer class="form__footer">
+        <button class="form__submit-button button" type="submit">Регистрация</button>
+      </footer>
+    </form>
+  </main>
+</body>
+</html>

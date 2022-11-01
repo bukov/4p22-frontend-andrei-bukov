@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: 2s background-color, 2s transform, 2s border-radius; */
+
+
+/* .box:hover {
+  background-color: blue;
+  border-radius: 20px;
+  transform: translate3d(50%, 50%, 0) rotate(90deg); 
+} */
+
+/* .box:active {
+  background-color: blue;
+  border-radius: 20px;
+  transform: rotate(90deg); 
+} */
+
+/* .btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 10s left, 10s top;
+}
+
+.btn:focus {
+  position: relative;
+  outline: none;
+  background: red;
+  left: 400px;
+  top: 400px;
+}
+
+.link {
+  color: red;
+}
+
+.link:visited {
+  color: orange;
+} */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box:first-child {
+  background: blue;
+}
+
+.box:last-child {
+  background: blue;
+}
+
+.box:nth-child(5n + 5) {
+  background: blue;
+}
+
+.box:first-of-type {
+  background: magenta;
+} */
+
+/* .phone-input::before {
+  content: '+7';
+}
+
+.phone-input::after {
+  content: 'ext';
+} */
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.input-container label {
+  padding-left: 20px;
+}
+
+.input-container label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.input-container label::after {
+  content: '';
+  background: url(./check.png);
+  position: absolute;
+  background-size: 100% 100%;
+  left: 1px;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  /* background: black; */
+  transition: .2 opacity;
+  opacity: 0;
+  /* border-radius: 2px; */
+}
+
+.input-container input:checked + label::after {
+  opacity: 1;
+}
+
+.text::first-line {
+  color: red;
+}
+
+.text::first-letter {
+  color: blue;
+  font-size: 25px;
+}
+
+.text::selection {
+  background: orange;
+  color: white;
+}

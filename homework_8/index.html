@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework_8</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="form__container">
+    <form class="form__item">
+      <label class="form__label" for="operand-1">
+        <input class="form__input" type="text" id="number1" name="number1" placeholder="Введите первое число">
+      </label>
+      <label class="form__label" for="operator">
+        <input class="form__input" type="text" id="operator" name="operator" placeholder="Введите знак операции">
+      </label>
+      <label class="form__label" for="operand-2">
+        <input class="form__input" type="text" id="number2" name="number2" placeholder="Введите второе число">
+      </label>
+      <button class="form__button" id="submit">Посчитать</button>
+    </form>
+    <div class="form__item-window" id="answer"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
